@@ -1,14 +1,9 @@
 package main
 
 import (
-	"fmt"
 	"regexp"
 	"strings"
 )
-
-func main() {
-	fmt.Println("Hello, world!")
-}
 
 func removeNonAlphanumeric(input string) string {
 	re := regexp.MustCompile("[^a-zA-Z0-9]+")
